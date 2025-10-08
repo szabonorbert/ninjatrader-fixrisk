@@ -1,3 +1,9 @@
+// -------------------------------------------------------------
+// NinjaTrader FixRisk - Position Size Calculator
+// Copyright (c) 2025 Norbert Szabo
+// Licensed under the MIT License
+// -------------------------------------------------------------
+
 #region Using declarations
 using System;
 using System.Windows.Media;
