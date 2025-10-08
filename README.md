@@ -1,6 +1,6 @@
 # NinjaTrader FixRisk
 
-A simple **NinjaTrader 8 indicator** for quick and precise **position sizing** based on your desired risk per trade and stop distance. Built for professional discretionary futures and forex traders who prefer clear, rule-based risk management. Ideal for fast scalping as well as any kind of position sizing based on market entries.
+A simple **NinjaTrader 8 indicator** for quick and precise **position sizing** based on your desired risk per trade and stop distance. Built for professional discretionary futures traders who prefer clear, rule-based risk management. Ideal for fast scalping as well as any kind of position sizing based on market entries.
 
 ## ⚙️ Features
 
