@@ -12,16 +12,17 @@ A simple **NinjaTrader 8 indicator** for quick and precise **position sizing** b
 - Displays position size and risk info directly on the chart
 - Lightweight, zero-dependency, open-source
 
-{video}
-
 ## 📦 Installation
 
 1. Download `FixRisk.cs`
 2. In NinjaTrader:
    - Go to **New → NinjaScript Editor**
-   - Right-click the **Indicators** folder → **Import → NinjaScript...**
-3. Compile and refresh your indicators list
-4. Add *FixRisk* to your chart
+   - Right-click the **Indicators** folder → **New Indicator**
+3. Press **Generate**
+4. Remove everything
+5. Paste the content of ```FixRisk.cs```
+6. Press compile button ![](compile.png) on the top of the NinjaScript Editor window 
+4. After the compile finished, add *FixRisk* to your chart
 
 ## 🧠 Usage
 
@@ -31,6 +32,7 @@ A simple **NinjaTrader 8 indicator** for quick and precise **position sizing** b
    - On-screen text (position info)
    - Chart Trader’s **QTY** input automatically
 
+![](fixrisk.gif)
 
 ## 🧾 License
 
@@ -39,4 +41,4 @@ This project is licensed under the [MIT License](./LICENSE).
 ## 👤 Author
 
 **Norbert Szabo**  
-Developer, CTO and part-time trader
+CTO, developer and part-time trader
