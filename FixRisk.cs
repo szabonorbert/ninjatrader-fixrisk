@@ -95,7 +95,7 @@ namespace NinjaTrader.NinjaScript.Indicators{
 			int qty = (int)Math.Floor(RiskAmount / riskPerContract);
 			
 			//display on chart and update qty on chart trader
-			textField.DisplayText = "to risk " + RiskAmount + "$, target qty is " + qty;
+			textField.DisplayText = "to risk " + RiskAmount + ", target qty is " + qty;
 			ChartControl.Dispatcher.InvokeAsync((Action)(() => {
 				qtyField.Value = qty;
 			}));
