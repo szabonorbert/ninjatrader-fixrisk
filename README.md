@@ -1,7 +1,6 @@
 # NinjaTrader FixRisk
 
-A simple **NinjaTrader 8 indicator** for quick and precise **position sizing** based on your desired risk per trade and stop distance.  
-Built for professional discretionary futures and forex traders who prefer clear, rule-based risk management.
+A simple **NinjaTrader 8 indicator** for quick and precise **position sizing** based on your desired risk per trade and stop distance. Built for professional discretionary futures and forex traders who prefer clear, rule-based risk management. Ideal for fast scalping as well as any kind of position sizing based on market entries.
 
 ## ⚙️ Features
 
@@ -11,6 +10,7 @@ Built for professional discretionary futures and forex traders who prefer clear,
   - Instrument tick value
 - Automatically fills the **Chart Trader → QTY** field
 - Displays position size and risk information directly on the chart
+- Automatically references the Ask price for long trades (stop below market) and the Bid price for short trades (stop above market)
 - Lightweight, zero-dependency, and open-source
 
 ## 📦 Installation
@@ -27,11 +27,14 @@ Built for professional discretionary futures and forex traders who prefer clear,
 
 ## 🧠 Usage
 
-1. Set your desired risk per trade (in account currency)
-2. Define your stop-loss using the **red line** on the chart
-3. The indicator calculates the optimal position size and updates:
-   - On-screen text (position info)
-   - The Chart Trader’s **QTY** input automatically
+The **red line** represents your *imaginary stop-loss* for the calculation. 
+If you place a market order and set your actual stop exactly at that line, a stop-out will result in a loss equal to the **risk amount** you specified in the indicator settings.
+
+1. Set your desired **risk per trade** (in account currency)
+2. Position the **red line** where your stop-loss would be
+3. The indicator automatically:
+   - Calculates and displays the optimal position size on the chart
+   - Updates the Chart Trader’s **QTY** field accordingly
 
 ![](fixrisk.gif)
 
