@@ -45,4 +45,4 @@ This project is licensed under the [MIT License](./LICENSE).
 ## 👤 Author
 
 **Norbert Szabo**  
-CTO, developer, and part-time trader
+CTO / dev / part-time trader
